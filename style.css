@@ -697,7 +697,28 @@ div#alltop{margin-bottom:10px;box-shadow:-2px 2px 20px 0 rgba(0,0,0,0.45)}
 @-o-keyframes searchLights{0%{left:-100px;top:0}to{left:250px;top:0}}
 @-moz-keyframes searchLights{0%{left:-100px;top:0}to{left:250px;top:0}}
 @keyframes searchLights{0%{left:-100px;top:0}to{left:250px;top:0}}
-
+.subscribe_box2{width:400px;margin:0;padding:0;position:fixed;right:0;bottom:0}
+#subscribe-box2{width:100%;height:auto;background-color:#fff;-webkit-box-shadow:0 10px 50px 0 rgba(0,0,0,.25);-moz-box-shadow:0 10px 50px 0 rgba(0,0,0,.25);box-shadow:0 10px 50px 0 rgba(0,0,0,.25);margin:0;padding:10px 0;border:1px solid #dedede;border-right:0;border-bottom:0;border-radius:5px 0 0}
+#subscribe-box2 p{font-size:18px;color:#666;font-weight:300;text-align:center;line-height:20px;padding:10px 20px 0;margin:0}
+#subscribe-box2 .emailfield{padding:0 20px 10px}
+#subscribe-box2 .emailfield input{color:#777;padding:10px 10px 10px 30px;margin-top:10px;font-size:15px;font-weight:300;width:100%;background:#ebebeb;border:1px solid #ccc;border-radius:4px;box-shadow:rgba(0,0,0,.247059) 0 1px 3px inset,#f5f5f5 0 1px 0;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+#subscribe-box2 .emailfield input:focus{outline:0;background:#f5f5f5}
+#subscribe-box2 .emailfield .submitbutton{background:#F4836A;box-shadow:0 4px 0 0 #cb5940;color:#fff!important;border:none;font-weight:500;outline:0;width:100%;cursor:pointer;transition:all .4s ease-in-out}
+#subscribe-box2 .emailfield .submitbutton:active,#subscribe-box2 .emailfield .submitbutton:hover{background:#fb6f50!important}
+#subscribe-box2 .subs-title{font-family:Roboto,sans-serif;font-weight:900!important;color:#333!important;font-size:24px!important}
+#subscribe-box2 .subs-title2{font-family:Georgia,sans-serif;font-style:italic;font-weight:400!important}
+#subscribe-box2 .form-button:before,#subscribe-box2 .form-email:before,#subscribe-box2 .form-name:before{font-family:FontAwesome;font-style:normal;font-weight:400;text-decoration:inherit;padding-right:.5em;top:-2px}
+#subscribe-box2 .form-button,#subscribe-box2 .form-email,#subscribe-box2 .form-name{position:relative!important}
+#subscribe-box2 .form-name:before{content:'\f007';color:#777;font-size:16px;position:absolute;left:10px}
+#subscribe-box2 .form-email:before{content:'\f0e0';color:#777;font-size:16px;position:absolute;left:10px}
+#subscribe-box2 .form-button:before{content:'\f1d8';color:#fff;font-size:18px;position:absolute;left:50%;margin-left:-70px}
+#subscribe-box2 input.submitbutton{background-color:#F4836A!important}
+.slideInUp{-webkit-animation-name:slideInUp;animation-name:slideInUp;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}
+@-webkit-keyframes slideInUp{0%{-webkit-transform:translateY(100%);transform:translateY(100%);visibility:visible}100%{-webkit-transform:translateY(0);transform:translateY(0)}}
+@keyframes slideInUp{0%{-webkit-transform:translateY(100%);transform:translateY(100%);visibility:visible}100%{-webkit-transform:translateY(0);transform:translateY(0)}}
+.close-shareOnscroll{position:absolute;top:-15px;right:10px;font-family:Arial;font-size:24px;font-weight:700;cursor:pointer;width:25px;color:#555;height:25px;line-height:25px;text-align:center;background:#fff;border:1px solid #dedede;border-radius:100%}
+@media screen and (max-width:414px){.subscribe_box2{width:100%}#subscribe-box2{border-radius:0;border-left:0}}
+    
 /*----Responsive Design----*/
 @media screen and (max-width:1200px){.tag span.tag-icon,.tag span.tag-name{margin:10px 0 0 0}#outer-wrapper{width:100%}.row{width:auto;padding:0 5px}.slider-wrap{width:100%;margin-right:0;float:none;clear:both;margin-bottom:5px}.side-slider-wrap{float:none;width:100%;clear:both;margin:0 auto}.col-right .big-column li.first-big{width:100%}}
 @media screen and (max-width:1100px){}@media screen and (max-width:1000px){#footer-sec2{width:100%}#header-top{display:none}#header-blog,.header-content{height:auto}.header-logo{float:none;max-width:100%;text-align:center;margin:0 auto 20px;clear:both;height:auto;max-height:100%}.header-ads{display:none;float:none;height:auto;max-height:90px;margin:0 auto}#header-inner a{display:inline-block!important}#menu .widget > ul,#nav2{display:none}#menu3 .widget > ul,#nav3{display:none}#menu{overflow:hidden}#menu .tinynav{display:none;height:32px;margin:5px 0 0 5px;float:left}#menu3 .tinynav{display:block;height:32px;margin:5px 0 0 5px;float:left}}
